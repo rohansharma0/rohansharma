@@ -19,6 +19,8 @@ const GlobalStyles = createGlobalStyle`
 
     a{
         text-decoration: none;
+        width: fit-content;
+        display: block;
     }
 
     body{

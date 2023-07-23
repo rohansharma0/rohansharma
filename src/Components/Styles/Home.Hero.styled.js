@@ -11,7 +11,7 @@ export const StyledHomeHero = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	background: transparent;
-	align-items: flex-start;
+	align-items: center;
 	padding: 15vh 0;
 
 	.footer {
@@ -59,11 +59,11 @@ export const StyledHomeHero = styled.div`
 	.hero-section {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 		.top {
 			display: flex;
 			flex-direction: column;
-			align-items: flex-start;
+			align-items: center;
 			p {
 				font-size: 5rem;
 				text-transform: uppercase;
@@ -86,7 +86,7 @@ export const StyledHomeHero = styled.div`
 			margin: 0.5rem 0 0 0;
 			display: flex;
 			flex-direction: column;
-			align-items: flex-start;
+			align-items: center;
 
 			p {
 				font-size: 1.1rem;
@@ -274,10 +274,12 @@ export const StyledHomeHero = styled.div`
 
 	/* Extra large devices (large laptops and desktops, 1200px and up) */
 	@media only screen and (min-width: 1200px) {
+
+
 		.hero-section {
 			.top {
 				p {
-					font-size: 9rem;
+					font-size: 8rem;
 				}
 			}
 		}

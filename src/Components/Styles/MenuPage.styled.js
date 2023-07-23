@@ -35,7 +35,7 @@ export const StyledMenuPage = styled.div`
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0 2.5rem;
+		padding: 0 1.5rem;
 		height: 15vh;
 		.footer-links {
 			display: flex;
@@ -114,11 +114,12 @@ export const StyledMenuPage = styled.div`
 		.copyright {
 			font-size: 1rem;
 			letter-spacing: 0.5px;
+			height: 1rem
 			p {
 				color: #fff;
 				margin: 0.25rem 0;
-				margin-right: 1rem;
 				span {
+					color: #fff;
 					font-size: 80%;
 				}
 			}
@@ -192,6 +193,9 @@ export const StyledMenuPage = styled.div`
 	}
 	/* Small devices (portrait tablets and large phones, 600px and up) */
 	@media only screen and (min-width: 600px) {
+		.footer {
+			padding: 0 2.5rem;
+		}
 	}
 
 	/* Large devices (laptops/desktops, 950px and up) */

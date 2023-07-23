@@ -37,7 +37,7 @@ const Router = () => {
         id.current = window.setInterval(() => {
             setTimer(timer - 1);
         }, 500);
-    }, []);
+    });
 
     useEffect(() => {
         if (timer === 0) {

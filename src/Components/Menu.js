@@ -40,12 +40,12 @@ const Menu = () => {
             });
             //animations
             gsap.to(bar1, {
-                y: +5,
+                y: +4,
                 rotateZ: 225,
                 ease: "power3.inOut",
             });
             gsap.to(bar2, {
-                y: -2,
+                y: -1,
                 rotateZ: 135,
                 ease: "power3.inOut",
             });
@@ -70,13 +70,13 @@ const Menu = () => {
                 clicked: !isMenuOn.clicked,
             });
             gsap.to(bar1, {
-                y: +5,
+                y: +4,
                 rotateZ: 225,
                 ease: "power3.inOut",
             });
 
             gsap.to(bar2, {
-                y: -2,
+                y: -1,
                 rotateZ: 135,
                 ease: "power3.inOut",
             });

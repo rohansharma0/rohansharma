@@ -4,6 +4,8 @@ export const StyledMenu = styled.div`
 	.menu {
 		position: fixed;
 		right: 1.5rem;
+		height:15vh;
+		top:0;
 		border: none;
 		background-color: transparent;
 		z-index: 999;
@@ -12,7 +14,7 @@ export const StyledMenu = styled.div`
 			width: 2.5rem;
 			height: 1px;
 			background-color: #fff;
-			margin: 5px;
+			margin: 4px;
 		}
 	}
 
@@ -29,6 +31,7 @@ export const StyledMenu = styled.div`
 
 	/* Extra large devices (large laptops and desktops, 1200px and up) */
 	@media only screen and (min-width: 1200px) {
+		display:none;
 	}
 
 	/* Extra large devices (large laptops and desktops, 1500px and up) */

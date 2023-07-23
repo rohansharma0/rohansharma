@@ -6,6 +6,11 @@ export const StyledNavBar = styled.div`
 	display: flex;
 	align-items: center;
 	position: absolute;
+
+	.hero-nav{
+		display: none;
+	}
+
 	.logo-container {
 		position: fixed;
 		left: 1.5rem;
@@ -20,4 +25,30 @@ export const StyledNavBar = styled.div`
 			left: 2.5rem;
 		}
 	}
+
+	@media only screen and (min-width: 1200px) {
+		.hero-nav{
+			display: flex;
+			position: fixed;
+			height: 15vh;
+			align-items: center;
+			right: 2.5rem;
+			top: 0;
+			ul{
+				display: flex;
+	
+				li{
+					list-style: none;
+					margin-left:1rem;
+	
+					a{
+						color:#fff;
+						font-size:1.1rem;
+					}
+					
+				}
+			}
+		}
+	}
+	
 `;

@@ -155,7 +155,7 @@ const MenuPage = ({ isActive }) => {
                                 // onMouseEnter={(e) => handleHover(e)}
                                 // onMouseOut={(e) => handleHoverExit(e)}
                                 ref={(el) => (line2 = el)}
-                                href="/about"
+                                href="about"
                             >
                                 <span data-text="About.">About.</span>
                             </a>
@@ -165,7 +165,7 @@ const MenuPage = ({ isActive }) => {
                                 // onMouseEnter={(e) => handleHover(e)}
                                 // onMouseOut={(e) => handleHoverExit(e)}
                                 ref={(el) => (line3 = el)}
-                                href="/contact"
+                                href="contact"
                             >
                                 <span data-text="Contact.">Contact.</span>
                             </a>
