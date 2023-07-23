@@ -7,8 +7,16 @@ export const StyledNavBar = styled.div`
 	align-items: center;
 	position: absolute;
 
-	.hero-nav{
-		display: none;
+	.hero-nav {
+		display: flex;
+		position: fixed;
+		height: 15vh;
+		align-items: center;
+		right: 5.5rem;
+		top: 0;
+		ul{
+			display: none;
+		}
 	}
 
 	.logo-container {
@@ -28,12 +36,7 @@ export const StyledNavBar = styled.div`
 
 	@media only screen and (min-width: 1200px) {
 		.hero-nav{
-			display: flex;
-			position: fixed;
-			height: 15vh;
-			align-items: center;
 			right: 2.5rem;
-			top: 0;
 			ul{
 				display: flex;
 	

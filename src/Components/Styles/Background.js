@@ -7,7 +7,7 @@ export const StyledBackground = styled.div`
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #080808;
+	background-color: ${props => props.theme.backgroundColor};
 	z-index: -2;
 
 	.noise {

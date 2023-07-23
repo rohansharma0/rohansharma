@@ -39,7 +39,6 @@ export const StyledHomeFooter = styled.div`
 					font-size: 0.8rem;
 					margin: 0.25rem 0;
 					letter-spacing: 0.5px;
-					color: #fff;
 				}
 			}
 		}

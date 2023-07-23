@@ -14,19 +14,22 @@ const GlobalStyles = createGlobalStyle`
         padding: 0;
         font-family: 'Krylon', sans-serif;
         box-sizing: border-box;
+        
         // cursor: none !important;
     }
 
     a{
+        color:${props => props.theme.textColor};
         text-decoration: none;
         width: fit-content;
         display: block;
     }
 
     body{
-        color: #fff;
+        color: ${props => props.theme.textColor};
         transition: none;
     }
+
 
 
 `;
