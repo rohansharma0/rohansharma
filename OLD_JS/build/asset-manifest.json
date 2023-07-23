@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/static/js/main.5b965c33.js",
+    "static/media/noise.png": "/static/media/noise.bd1c2fb4fb757dcbd0e8.png",
+    "static/media/Krylon-Regular.otf": "/static/media/Krylon-Regular.5947e3b0ec98153ddb8f.otf",
+    "static/media/RohanSharma.pdf": "/static/media/RohanSharma.73af114f825e86b50bb9.pdf",
+    "static/media/instagram.svg": "/static/media/instagram.a099d15be37a7117b70e0f2ca4f44908.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.5f064e796a0fc70fb9351b7c224e424a.svg",
+    "static/media/facebook.svg": "/static/media/facebook.b6df5db3186ac1e023440adf3b708fb4.svg",
+    "static/media/circle-left.svg": "/static/media/circle-left.f83a936f6ba91876495847af949797c0.svg",
+    "static/media/circle-right.svg": "/static/media/circle-right.109684810198941175ed8de6e669fed0.svg",
+    "index.html": "/index.html",
+    "static/media/line.svg": "/static/media/line.d384d6ae49fac13e2820879616feb262.svg",
+    "main.5b965c33.js.map": "/static/js/main.5b965c33.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5b965c33.js"
+  ]
+}
